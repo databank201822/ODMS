@@ -1304,5 +1304,26 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RPT_Realtime_DayEndReport" FunctionName="ODMSModel.Store.RPT_Realtime_DayEndReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ODMSModel.RPT_Realtime_DayEndReport_Result">
+          <ScalarProperty Name="LastWorkingday" ColumnName="LastWorkingday" />
+          <ScalarProperty Name="NotWorking" ColumnName="NotWorking" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="DB_Id" ColumnName="DB_Id" />
+          <ScalarProperty Name="DB_Name" ColumnName="DB_Name" />
+          <ScalarProperty Name="CEAREA_id" ColumnName="CEAREA_id" />
+          <ScalarProperty Name="CEAREA_Name" ColumnName="CEAREA_Name" />
+          <ScalarProperty Name="AREA_id" ColumnName="AREA_id" />
+          <ScalarProperty Name="AREA_Name" ColumnName="AREA_Name" />
+          <ScalarProperty Name="REGION_id" ColumnName="REGION_id" />
+          <ScalarProperty Name="REGION_Name" ColumnName="REGION_Name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Cluster" ColumnName="Cluster" />
+          <ScalarProperty Name="DBCode" ColumnName="DBCode" />
+          <ScalarProperty Name="OfficeAddress" ColumnName="OfficeAddress" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>
