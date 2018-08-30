@@ -131,3 +131,4 @@ D:\Dropbox\ODMS\ODMS\obj\Release\ODMS.pdb
 D:\Dropbox\ODMS\ODMS\bin\Reports\Realtime\RPT_Realtime_OutletWiseOrder.rdlc
 D:\Dropbox\ODMS\ODMS\bin\Reports\Realtime\RPT_Realtime_SKUWiseOrder.rdlc
 D:\Dropbox\ODMS\ODMS\obj\Release\ODMS.csprojResolveAssemblyReference.cache
+D:\Dropbox\ODMS\ODMS\bin\Reports\RPT_DayEndReport.rdlc

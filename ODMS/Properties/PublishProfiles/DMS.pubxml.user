@@ -24,11 +24,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_res/login.png">
       <publishTime>03/25/2018 15:23:41</publishTime>
     </File>
+    <File Include="App_res/logo.png">
+      <publishTime>08/29/2018 12:57:15</publishTime>
+    </File>
     <File Include="App_res/logo_pepsi.png">
-      <publishTime>06/08/2018 17:57:46</publishTime>
+      <publishTime>08/06/2018 17:57:46</publishTime>
     </File>
     <File Include="App_res/notfound.png">
-      <publishTime>03/06/2018 21:07:05</publishTime>
+      <publishTime>06/03/2018 21:07:05</publishTime>
     </File>
     <File Include="App_res/pepsi.png">
       <publishTime>06/25/2018 16:11:34</publishTime>
@@ -43,16 +46,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/25/2018 15:18:44</publishTime>
     </File>
     <File Include="bin/App_Code.compiled">
-      <publishTime>08/28/2018 12:28:22</publishTime>
+      <publishTime>08/30/2018 12:34:23</publishTime>
     </File>
     <File Include="bin/App_Code.dll">
-      <publishTime>08/28/2018 12:28:22</publishTime>
+      <publishTime>08/30/2018 12:34:22</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>08/28/2018 12:28:23</publishTime>
+      <publishTime>08/30/2018 12:34:24</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>08/28/2018 12:28:23</publishTime>
+      <publishTime>08/30/2018 12:34:24</publishTime>
     </File>
     <File Include="bin/de/Microsoft.ReportViewer.Common.resources.dll">
       <publishTime>05/16/2018 15:00:42</publishTime>
@@ -205,7 +208,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/09/2018 10:17:04</publishTime>
     </File>
     <File Include="bin/ODMS.dll">
-      <publishTime>08/28/2018 12:28:01</publishTime>
+      <publishTime>08/30/2018 12:33:46</publishTime>
     </File>
     <File Include="bin/pt/Microsoft.ReportViewer.Common.resources.dll">
       <publishTime>05/16/2018 15:00:45</publishTime>
@@ -241,10 +244,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2018 17:04:31</publishTime>
     </File>
     <File Include="bin/Reports/Delivery/RPT_Delivery_PsrWiseSkuWiseDeliveryDetails.rdlc">
-      <publishTime>07/08/2018 17:56:18</publishTime>
+      <publishTime>08/07/2018 17:56:18</publishTime>
     </File>
     <File Include="bin/Reports/Delivery/RPT_Delivery_PsrWiseSkuWiseDeliverySummary.rdlc">
-      <publishTime>05/08/2018 17:11:44</publishTime>
+      <publishTime>08/05/2018 17:11:44</publishTime>
     </File>
     <File Include="bin/Reports/Delivery/RPT_KPIPSRSummary.rdlc">
       <publishTime>08/28/2018 12:19:49</publishTime>
@@ -273,11 +276,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Reports/RPT_ChallanVsDelivery.rdlc">
       <publishTime>06/08/2018 18:37:44</publishTime>
     </File>
+    <File Include="bin/Reports/RPT_DayEndReport.rdlc">
+      <publishTime>08/28/2018 19:00:33</publishTime>
+    </File>
     <File Include="bin/Reports/RPT_OrderVsStock.rdlc">
-      <publishTime>07/06/2018 12:07:49</publishTime>
+      <publishTime>06/07/2018 12:07:49</publishTime>
     </File>
     <File Include="bin/Reports/RPT_StockMovement.rdlc">
-      <publishTime>07/08/2018 14:52:56</publishTime>
+      <publishTime>08/07/2018 14:52:56</publishTime>
     </File>
     <File Include="bin/ReportViewerForMvc.dll">
       <publishTime>05/16/2018 15:00:46</publishTime>
@@ -473,6 +479,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/login.css">
       <publishTime>03/07/2018 15:03:11</publishTime>
+    </File>
+    <File Include="Content/mobilestyle.css">
+      <publishTime>08/29/2018 15:11:02</publishTime>
     </File>
     <File Include="Content/Pepsi.png">
       <publishTime>07/27/2018 22:07:51</publishTime>
@@ -5719,7 +5728,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/11/2018 12:34:48</publishTime>
     </File>
     <File Include="Content/tamplate/dist/css/AdminLTE.css">
-      <publishTime>01/08/2018 12:39:41</publishTime>
+      <publishTime>08/01/2018 12:39:41</publishTime>
     </File>
     <File Include="Content/tamplate/dist/css/adminlte.css.map">
       <publishTime>06/11/2018 12:34:49</publishTime>
@@ -6343,7 +6352,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/11/2018 12:34:52</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>06/08/2018 16:39:22</publishTime>
+      <publishTime>08/06/2018 16:39:22</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>03/25/2018 15:18:41</publishTime>
@@ -6361,7 +6370,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/31/2018 17:44:53</publishTime>
     </File>
     <File Include="Models/ODMS.edmx.diagram">
-      <publishTime>08/28/2018 11:14:03</publishTime>
+      <publishTime>08/28/2018 17:53:18</publishTime>
     </File>
     <File Include="Models/ODMSBI.edmx.diagram">
       <publishTime>08/18/2018 13:01:06</publishTime>
@@ -6370,7 +6379,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/09/2018 10:18:54</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>08/28/2018 12:28:08</publishTime>
+      <publishTime>08/30/2018 12:34:10</publishTime>
     </File>
     <File Include="Reports/Delivery/RPT_Delivery_OutletWiseDeliveryDetails.rdlc">
       <publishTime>08/13/2018 16:22:25</publishTime>
@@ -6379,10 +6388,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2018 17:04:31</publishTime>
     </File>
     <File Include="Reports/Delivery/RPT_Delivery_PsrWiseSkuWiseDeliveryDetails.rdlc">
-      <publishTime>07/08/2018 17:56:18</publishTime>
+      <publishTime>08/07/2018 17:56:18</publishTime>
     </File>
     <File Include="Reports/Delivery/RPT_Delivery_PsrWiseSkuWiseDeliverySummary.rdlc">
-      <publishTime>05/08/2018 17:11:44</publishTime>
+      <publishTime>08/05/2018 17:11:44</publishTime>
     </File>
     <File Include="Reports/Delivery/RPT_KPIPSRSummary.rdlc">
       <publishTime>08/28/2018 12:19:49</publishTime>
@@ -6406,10 +6415,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/08/2018 18:37:44</publishTime>
     </File>
     <File Include="Reports/RPT_OrderVsStock.rdlc">
-      <publishTime>07/06/2018 12:07:49</publishTime>
+      <publishTime>06/07/2018 12:07:49</publishTime>
     </File>
     <File Include="Reports/RPT_StockMovement.rdlc">
-      <publishTime>07/08/2018 14:52:56</publishTime>
+      <publishTime>08/07/2018 14:52:56</publishTime>
     </File>
     <File Include="ReportViewerWebForm.aspx">
       <publishTime>08/12/2018 15:36:46</publishTime>
@@ -6502,7 +6511,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/16/2018 15:01:02</publishTime>
     </File>
     <File Include="Upload/August-2018.xlsx">
-      <publishTime>06/08/2018 17:21:20</publishTime>
+      <publishTime>08/06/2018 17:21:20</publishTime>
+    </File>
+    <File Include="Views/AppsActivity/Index.cshtml">
+      <publishTime>08/29/2018 15:10:03</publishTime>
+    </File>
+    <File Include="Views/AppsActivity/Login.cshtml">
+      <publishTime>08/29/2018 10:27:26</publishTime>
     </File>
     <File Include="Views/BundlePrice/Addnewproduct.cshtml">
       <publishTime>07/25/2018 11:01:27</publishTime>
@@ -6538,31 +6553,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2018 16:20:27</publishTime>
     </File>
     <File Include="Views/Challan/ConfirmChallan.cshtml">
-      <publishTime>03/08/2018 11:00:33</publishTime>
+      <publishTime>08/03/2018 11:00:33</publishTime>
     </File>
     <File Include="Views/Challan/Createchallan.cshtml">
-      <publishTime>03/08/2018 10:09:32</publishTime>
+      <publishTime>08/03/2018 10:09:32</publishTime>
     </File>
     <File Include="Views/Challan/DetailsChallan.cshtml">
-      <publishTime>08/27/2018 12:07:55</publishTime>
+      <publishTime>08/29/2018 16:36:03</publishTime>
     </File>
     <File Include="Views/Challan/EmptyOrder.cshtml">
-      <publishTime>03/08/2018 09:31:09</publishTime>
+      <publishTime>08/03/2018 09:31:09</publishTime>
     </File>
     <File Include="Views/Challan/Index.cshtml">
-      <publishTime>03/08/2018 09:56:39</publishTime>
+      <publishTime>08/03/2018 09:56:39</publishTime>
     </File>
     <File Include="Views/Challan/OrdernotProcess.cshtml">
-      <publishTime>03/08/2018 09:32:49</publishTime>
+      <publishTime>08/03/2018 09:32:49</publishTime>
     </File>
     <File Include="Views/Challan/PrintChallan.cshtml">
-      <publishTime>08/27/2018 18:25:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Challan/ShowAllChallan.cshtml">
-      <publishTime>03/08/2018 10:10:34</publishTime>
+      <publishTime>08/03/2018 10:10:34</publishTime>
     </File>
     <File Include="Views/Challan/ShowAllForCreateChallan.cshtml">
-      <publishTime>03/08/2018 09:40:34</publishTime>
+      <publishTime>08/03/2018 09:40:34</publishTime>
     </File>
     <File Include="Views/Challan/ShowConfirmChallan.cshtml">
       <publishTime>08/27/2018 11:51:23</publishTime>
@@ -6574,7 +6589,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/14/2018 13:20:58</publishTime>
     </File>
     <File Include="Views/DayEnd/Index.cshtml">
-      <publishTime>04/08/2018 17:09:55</publishTime>
+      <publishTime>08/04/2018 17:09:55</publishTime>
     </File>
     <File Include="Views/DBhouse/Create.cshtml">
       <publishTime>08/20/2018 11:44:14</publishTime>
@@ -6589,22 +6604,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/20/2018 11:45:39</publishTime>
     </File>
     <File Include="Views/DBhouse/Index.cshtml">
-      <publishTime>05/08/2018 22:29:38</publishTime>
+      <publishTime>08/05/2018 22:29:38</publishTime>
     </File>
     <File Include="Views/DBhouseCluster/Create.cshtml">
-      <publishTime>05/08/2018 19:04:08</publishTime>
+      <publishTime>08/05/2018 19:04:08</publishTime>
     </File>
     <File Include="Views/DBhouseCluster/Delete.cshtml">
-      <publishTime>05/08/2018 18:45:19</publishTime>
+      <publishTime>08/05/2018 18:45:19</publishTime>
     </File>
     <File Include="Views/DBhouseCluster/Details.cshtml">
-      <publishTime>05/08/2018 18:45:22</publishTime>
+      <publishTime>08/05/2018 18:45:22</publishTime>
     </File>
     <File Include="Views/DBhouseCluster/Edit.cshtml">
-      <publishTime>05/08/2018 18:45:24</publishTime>
+      <publishTime>08/05/2018 18:45:24</publishTime>
     </File>
     <File Include="Views/DBhouseCluster/Index.cshtml">
-      <publishTime>06/08/2018 10:53:26</publishTime>
+      <publishTime>08/06/2018 10:53:26</publishTime>
     </File>
     <File Include="Views/DBhouseemployee/Create.cshtml">
       <publishTime>07/25/2018 12:53:47</publishTime>
@@ -6631,28 +6646,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/25/2018 15:19:59</publishTime>
     </File>
     <File Include="Views/DBhouseOrderExceptionReason/Create.cshtml">
-      <publishTime>05/08/2018 22:35:59</publishTime>
+      <publishTime>08/05/2018 22:35:59</publishTime>
     </File>
     <File Include="Views/DBhouseOrderExceptionReason/Delete.cshtml">
-      <publishTime>05/08/2018 22:36:01</publishTime>
+      <publishTime>08/05/2018 22:36:01</publishTime>
     </File>
     <File Include="Views/DBhouseOrderExceptionReason/Details.cshtml">
-      <publishTime>05/08/2018 22:36:02</publishTime>
+      <publishTime>08/05/2018 22:36:02</publishTime>
     </File>
     <File Include="Views/DBhouseOrderExceptionReason/Edit.cshtml">
-      <publishTime>05/08/2018 22:36:03</publishTime>
+      <publishTime>08/05/2018 22:36:03</publishTime>
     </File>
     <File Include="Views/DBhouseOrderExceptionReason/Index.cshtml">
-      <publishTime>06/08/2018 10:53:59</publishTime>
+      <publishTime>08/06/2018 10:53:59</publishTime>
     </File>
     <File Include="Views/DBhouseOutlet/ApproveIndex.cshtml">
-      <publishTime>06/08/2018 16:17:57</publishTime>
+      <publishTime>08/06/2018 16:17:57</publishTime>
     </File>
     <File Include="Views/DBhouseOutlet/ApproveOutlet.cshtml">
-      <publishTime>06/08/2018 16:09:45</publishTime>
+      <publishTime>08/06/2018 16:09:45</publishTime>
     </File>
     <File Include="Views/DBhouseOutlet/ApproveOutletShowAllbydbid.cshtml">
-      <publishTime>06/08/2018 16:03:10</publishTime>
+      <publishTime>08/06/2018 16:03:10</publishTime>
     </File>
     <File Include="Views/DBhouseOutlet/Create.cshtml">
       <publishTime>07/25/2018 17:31:43</publishTime>
@@ -6670,52 +6685,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2018 13:26:50</publishTime>
     </File>
     <File Include="Views/DBhouseOutlet/ShowAllbydbid.cshtml">
-      <publishTime>04/08/2018 17:09:38</publishTime>
+      <publishTime>08/04/2018 17:09:38</publishTime>
     </File>
     <File Include="Views/DBhouseOutletCategory/Create.cshtml">
-      <publishTime>05/08/2018 22:26:42</publishTime>
+      <publishTime>08/05/2018 22:26:42</publishTime>
     </File>
     <File Include="Views/DBhouseOutletCategory/Delete.cshtml">
-      <publishTime>05/08/2018 22:26:44</publishTime>
+      <publishTime>08/05/2018 22:26:44</publishTime>
     </File>
     <File Include="Views/DBhouseOutletCategory/Details.cshtml">
-      <publishTime>05/08/2018 22:26:46</publishTime>
+      <publishTime>08/05/2018 22:26:46</publishTime>
     </File>
     <File Include="Views/DBhouseOutletCategory/Edit.cshtml">
-      <publishTime>05/08/2018 22:26:47</publishTime>
+      <publishTime>08/05/2018 22:26:47</publishTime>
     </File>
     <File Include="Views/DBhouseOutletCategory/Index.cshtml">
-      <publishTime>05/08/2018 22:29:50</publishTime>
+      <publishTime>08/05/2018 22:29:50</publishTime>
     </File>
     <File Include="Views/DBhouseOutletChannel/Create.cshtml">
-      <publishTime>05/08/2018 22:03:51</publishTime>
+      <publishTime>08/05/2018 22:03:51</publishTime>
     </File>
     <File Include="Views/DBhouseOutletChannel/Delete.cshtml">
-      <publishTime>05/08/2018 19:23:56</publishTime>
+      <publishTime>08/05/2018 19:23:56</publishTime>
     </File>
     <File Include="Views/DBhouseOutletChannel/Details.cshtml">
-      <publishTime>05/08/2018 19:23:59</publishTime>
+      <publishTime>08/05/2018 19:23:59</publishTime>
     </File>
     <File Include="Views/DBhouseOutletChannel/Edit.cshtml">
-      <publishTime>05/08/2018 22:04:09</publishTime>
+      <publishTime>08/05/2018 22:04:09</publishTime>
     </File>
     <File Include="Views/DBhouseOutletChannel/Index.cshtml">
-      <publishTime>05/08/2018 22:30:30</publishTime>
+      <publishTime>08/05/2018 22:30:30</publishTime>
     </File>
     <File Include="Views/DBhouseOutletGrade/Create.cshtml">
-      <publishTime>05/08/2018 22:04:16</publishTime>
+      <publishTime>08/05/2018 22:04:16</publishTime>
     </File>
     <File Include="Views/DBhouseOutletGrade/Delete.cshtml">
-      <publishTime>05/08/2018 19:26:46</publishTime>
+      <publishTime>08/05/2018 19:26:46</publishTime>
     </File>
     <File Include="Views/DBhouseOutletGrade/Details.cshtml">
-      <publishTime>05/08/2018 19:26:48</publishTime>
+      <publishTime>08/05/2018 19:26:48</publishTime>
     </File>
     <File Include="Views/DBhouseOutletGrade/Edit.cshtml">
-      <publishTime>05/08/2018 22:05:57</publishTime>
+      <publishTime>08/05/2018 22:05:57</publishTime>
     </File>
     <File Include="Views/DBhouseOutletGrade/Index.cshtml">
-      <publishTime>05/08/2018 22:30:10</publishTime>
+      <publishTime>08/05/2018 22:30:10</publishTime>
     </File>
     <File Include="Views/DBhouseRoute/Create.cshtml">
       <publishTime>07/25/2018 16:49:41</publishTime>
@@ -6742,7 +6757,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/25/2018 15:19:59</publishTime>
     </File>
     <File Include="Views/DynamicFilter/DateRange_filter.cshtml">
-      <publishTime>07/08/2018 18:09:26</publishTime>
+      <publishTime>08/07/2018 18:09:26</publishTime>
     </File>
     <File Include="Views/DynamicFilter/PSR_filter.cshtml">
       <publishTime>08/11/2018 12:25:00</publishTime>
@@ -6772,22 +6787,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/08/2018 12:15:22</publishTime>
     </File>
     <File Include="Views/GeneralReport/CurrentRouteplan/CurrentRouteplan.cshtml">
-      <publishTime>02/08/2018 10:19:45</publishTime>
+      <publishTime>08/02/2018 10:19:45</publishTime>
     </File>
     <File Include="Views/GeneralReport/CurrentRouteplan/CurrentRouteplanFilter.cshtml">
-      <publishTime>06/05/2018 10:12:40</publishTime>
+      <publishTime>05/06/2018 10:12:40</publishTime>
     </File>
     <File Include="Views/GeneralReport/CurrentStock/CurrentStock.cshtml">
-      <publishTime>11/08/2018 17:30:09</publishTime>
+      <publishTime>08/11/2018 17:30:09</publishTime>
     </File>
     <File Include="Views/GeneralReport/CurrentStock/CurrentStockFilter.cshtml">
-      <publishTime>11/08/2018 17:30:09</publishTime>
+      <publishTime>08/11/2018 17:30:09</publishTime>
     </File>
     <File Include="Views/GeneralReport/CurrentTp/CurrentTp.cshtml">
       <publishTime>08/16/2018 12:41:06</publishTime>
     </File>
     <File Include="Views/GeneralReport/CurrentTp/CurrentTpFilter.cshtml">
       <publishTime>08/16/2018 13:07:29</publishTime>
+    </File>
+    <File Include="Views/GeneralReport/DayEnd/RptDayEnd.cshtml">
+      <publishTime>08/28/2018 18:07:57</publishTime>
+    </File>
+    <File Include="Views/GeneralReport/DayEnd/RptDayEndFilter.cshtml">
+      <publishTime>08/28/2018 17:43:18</publishTime>
     </File>
     <File Include="Views/GeneralReport/DbZone.cshtml">
       <publishTime>05/18/2018 20:19:38</publishTime>
@@ -6811,13 +6832,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2018 19:48:30</publishTime>
     </File>
     <File Include="Views/GeneralReport/visitplan/Visitplan.cshtml">
-      <publishTime>06/08/2018 16:23:10</publishTime>
+      <publishTime>08/06/2018 16:23:10</publishTime>
     </File>
     <File Include="Views/GeneralReport/visitplan/VisitplanFilter.cshtml">
-      <publishTime>02/08/2018 13:36:56</publishTime>
+      <publishTime>08/02/2018 13:36:56</publishTime>
     </File>
     <File Include="Views/Home/Deshboard.cshtml">
-      <publishTime>08/20/2018 21:58:59</publishTime>
+      <publishTime>08/28/2018 12:31:59</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>08/28/2018 12:26:40</publishTime>
@@ -6832,7 +6853,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/30/2018 12:02:12</publishTime>
     </File>
     <File Include="Views/Login/Index - Copy.cshtml">
-      <publishTime>11/06/2018 15:30:29</publishTime>
+      <publishTime>06/11/2018 15:30:29</publishTime>
     </File>
     <File Include="Views/Login/Index.cshtml">
       <publishTime>08/17/2018 20:24:15</publishTime>
@@ -6859,7 +6880,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/27/2018 11:43:31</publishTime>
     </File>
     <File Include="Views/Menu/ShowMainMenu.cshtml">
-      <publishTime>03/08/2018 09:25:09</publishTime>
+      <publishTime>08/03/2018 09:25:09</publishTime>
     </File>
     <File Include="Views/MenuMainMenu/Create.cshtml">
       <publishTime>03/27/2018 13:03:11</publishTime>
@@ -6898,22 +6919,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/27/2018 11:40:38</publishTime>
     </File>
     <File Include="Views/Order/AddRow.cshtml">
-      <publishTime>01/08/2018 13:41:01</publishTime>
+      <publishTime>08/01/2018 13:41:01</publishTime>
     </File>
     <File Include="Views/Order/AddRowOnEdit.cshtml">
-      <publishTime>01/08/2018 13:35:56</publishTime>
+      <publishTime>08/01/2018 13:35:56</publishTime>
     </File>
     <File Include="Views/Order/CreateOrder.cshtml">
-      <publishTime>01/08/2018 13:45:19</publishTime>
+      <publishTime>08/01/2018 13:45:19</publishTime>
     </File>
     <File Include="Views/Order/CreateOrderbytype.cshtml">
-      <publishTime>01/08/2018 13:22:25</publishTime>
+      <publishTime>08/01/2018 13:22:25</publishTime>
     </File>
     <File Include="Views/Order/GetOrderPart.cshtml">
-      <publishTime>01/08/2018 13:48:19</publishTime>
+      <publishTime>08/01/2018 13:48:19</publishTime>
     </File>
     <File Include="Views/Order/Index.cshtml">
-      <publishTime>01/08/2018 12:50:14</publishTime>
+      <publishTime>08/01/2018 12:50:14</publishTime>
     </File>
     <File Include="Views/Order/Invoice.cshtml">
       <publishTime>08/27/2018 18:22:35</publishTime>
@@ -6925,10 +6946,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/19/2018 09:20:15</publishTime>
     </File>
     <File Include="Views/Order/PosInvoice.cshtml">
-      <publishTime>03/08/2018 09:15:17</publishTime>
+      <publishTime>08/03/2018 09:15:17</publishTime>
     </File>
     <File Include="Views/Order/ShowAllorder.cshtml">
-      <publishTime>03/08/2018 10:14:33</publishTime>
+      <publishTime>08/03/2018 10:14:33</publishTime>
     </File>
     <File Include="Views/Order/test.cshtml">
       <publishTime>05/06/2018 14:41:58</publishTime>
@@ -7039,7 +7060,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/12/2018 15:54:10</publishTime>
     </File>
     <File Include="Views/ReportList/Index.cshtml">
-      <publishTime>06/08/2018 10:59:46</publishTime>
+      <publishTime>08/06/2018 10:59:46</publishTime>
     </File>
     <File Include="Views/ReportOrder/OutletwiseOrder.cshtml">
       <publishTime>05/18/2018 21:28:23</publishTime>
@@ -7114,22 +7135,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2018 18:06:59</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/27/2018 14:51:58</publishTime>
+      <publishTime>08/29/2018 13:08:59</publishTime>
+    </File>
+    <File Include="Views/Shared/_PSRLayoutPage.cshtml">
+      <publishTime>08/29/2018 14:51:46</publishTime>
     </File>
     <File Include="Views/SkuBrand/Create.cshtml">
-      <publishTime>06/08/2018 11:37:05</publishTime>
+      <publishTime>08/06/2018 11:37:05</publishTime>
     </File>
     <File Include="Views/SkuBrand/Delete.cshtml">
-      <publishTime>06/08/2018 11:37:07</publishTime>
+      <publishTime>08/06/2018 11:37:07</publishTime>
     </File>
     <File Include="Views/SkuBrand/Details.cshtml">
-      <publishTime>06/08/2018 12:29:31</publishTime>
+      <publishTime>08/06/2018 12:29:31</publishTime>
     </File>
     <File Include="Views/SkuBrand/Edit.cshtml">
-      <publishTime>06/08/2018 13:20:15</publishTime>
+      <publishTime>08/06/2018 13:20:15</publishTime>
     </File>
     <File Include="Views/SkuBrand/Index.cshtml">
-      <publishTime>06/08/2018 13:23:04</publishTime>
+      <publishTime>08/06/2018 13:23:04</publishTime>
     </File>
     <File Include="Views/SKUcategory/Create.cshtml">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -7144,7 +7168,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/SKUcategory/Index.cshtml">
-      <publishTime>06/08/2018 11:00:41</publishTime>
+      <publishTime>08/06/2018 11:00:41</publishTime>
     </File>
     <File Include="Views/SKUContainer/Create.cshtml">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -7159,7 +7183,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/SKUContainer/Index.cshtml">
-      <publishTime>06/08/2018 11:01:02</publishTime>
+      <publishTime>08/06/2018 11:01:02</publishTime>
     </File>
     <File Include="Views/SKUtype/Create.cshtml">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -7174,22 +7198,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/SKUtype/Index.cshtml">
-      <publishTime>06/08/2018 11:01:33</publishTime>
+      <publishTime>08/06/2018 11:01:33</publishTime>
     </File>
     <File Include="Views/SkuUnit/Create.cshtml">
-      <publishTime>05/08/2018 22:53:03</publishTime>
+      <publishTime>08/05/2018 22:53:03</publishTime>
     </File>
     <File Include="Views/SkuUnit/Delete.cshtml">
-      <publishTime>05/08/2018 22:53:07</publishTime>
+      <publishTime>08/05/2018 22:53:07</publishTime>
     </File>
     <File Include="Views/SkuUnit/Details.cshtml">
-      <publishTime>05/08/2018 22:53:09</publishTime>
+      <publishTime>08/05/2018 22:53:09</publishTime>
     </File>
     <File Include="Views/SkuUnit/Edit.cshtml">
-      <publishTime>05/08/2018 22:53:10</publishTime>
+      <publishTime>08/05/2018 22:53:10</publishTime>
     </File>
     <File Include="Views/SkuUnit/Index.cshtml">
-      <publishTime>06/08/2018 11:01:30</publishTime>
+      <publishTime>08/06/2018 11:01:30</publishTime>
     </File>
     <File Include="Views/Target/Create.cshtml">
       <publishTime>06/15/2018 00:41:15</publishTime>
@@ -7207,16 +7231,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/26/2018 11:51:19</publishTime>
     </File>
     <File Include="Views/Target/Index.cshtml">
-      <publishTime>06/08/2018 17:36:22</publishTime>
+      <publishTime>08/06/2018 17:36:22</publishTime>
     </File>
     <File Include="Views/Target/PSRTargetBreakDownIndex.cshtml">
-      <publishTime>04/07/2018 12:26:17</publishTime>
+      <publishTime>07/04/2018 12:26:17</publishTime>
     </File>
     <File Include="Views/Target/TargetBreakDownIndex.cshtml">
-      <publishTime>04/07/2018 13:03:04</publishTime>
+      <publishTime>07/04/2018 13:03:04</publishTime>
     </File>
     <File Include="Views/Target/UploadTarget.cshtml">
-      <publishTime>04/07/2018 14:01:20</publishTime>
+      <publishTime>07/04/2018 14:01:20</publishTime>
     </File>
     <File Include="Views/TradePromotion/AddRow.cshtml">
       <publishTime>06/20/2018 15:30:31</publishTime>
@@ -7306,7 +7330,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/25/2018 15:20:01</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>05/25/2018 15:43:27</publishTime>
+      <publishTime>08/29/2018 10:03:10</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>08/27/2018 14:46:19</publishTime>

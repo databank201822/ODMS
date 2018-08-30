@@ -191,7 +191,7 @@
     <Property Name="DBName" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="DBCode" Type="varchar" MaxLength="50" />
     <Property Name="DBDescription" Type="text" />
-    <Property Name="OfficeAddress" Type="nvarchar(max)" />
+    <Property Name="OfficeAddress" Type="varchar(max)" />
     <Property Name="WarehouseAddress" Type="text" />
     <Property Name="OwnerName" Type="varchar" MaxLength="50" />
     <Property Name="OwnerMoble" Type="varchar" MaxLength="50" />
@@ -1078,6 +1078,9 @@ warning 6002: The table/view 'ODMS.dbo.tbld_db_zone_view' does not have a primar
   </Function>
   <Function Name="RPT_OrderVsStock" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DBID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="RPT_Realtime_DayEndReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dbids" Type="varchar(max)" Mode="In" />
   </Function>
   <Function Name="RPT_Realtime_DBLifting" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="Start_Date" Type="datetime" Mode="In" />
