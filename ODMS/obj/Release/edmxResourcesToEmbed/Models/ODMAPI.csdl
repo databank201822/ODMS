@@ -5,7 +5,6 @@
       <Parameter Name="UserName" Mode="In" Type="String" />
       <Parameter Name="Password" Mode="In" Type="String" />
     </FunctionImport>
-    <EntitySet Name="tblm_UserLogin" EntityType="ODMSModelApi.tblm_UserLogin" />
     <FunctionImport Name="ApiGetSubRoute" ReturnType="Collection(ODMSModelApi.ApiGetSubRoute_Result)">
       <Parameter Name="psrid" Mode="In" Type="Int32" />
       <Parameter Name="CurrentDate" Mode="In" Type="DateTime" />
@@ -22,6 +21,7 @@
     <FunctionImport Name="ApiGetTradePromotionDefinition" ReturnType="Collection(ODMSModelApi.ApiGetTradePromotionDefinition_Result)">
       <Parameter Name="dbid" Mode="In" Type="Int32" />
     </FunctionImport>
+    <EntitySet Name="tblm_UserLogin" EntityType="ODMSModelApi.tblm_UserLogin" />
   </EntityContainer>
   <ComplexType Name="ApiUserLogin_Result">
     <Property Type="Int32" Name="PSRid" Nullable="false" />
@@ -31,17 +31,6 @@
     <Property Type="String" Name="MobileNo" Nullable="true" MaxLength="255" />
     <Property Type="String" Name="DBName" Nullable="false" MaxLength="50" />
   </ComplexType>
-  <EntityType Name="tblm_UserLogin">
-    <Key>
-      <PropertyRef Name="id" />
-    </Key>
-    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
-    <Property Name="Date_time_stamp" Type="DateTime" Nullable="false" Precision="6" />
-    <Property Name="PSR_id" Type="Int32" Nullable="false" />
-    <Property Name="current_lat" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-    <Property Name="current_lon" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-  </EntityType>
   <ComplexType Name="ApiGetSubRoute_Result">
     <Property Type="Int32" Name="db_id" Nullable="false" />
     <Property Type="Int32" Name="db_emp_id" Nullable="false" />
@@ -108,4 +97,16 @@
     <Property Type="Int32" Name="condition_bundle_qty_CS" Nullable="false" />
     <Property Type="Int32" Name="condition_sku_group" Nullable="true" />
   </ComplexType>
+  <EntityType Name="tblm_UserLogin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Date_time_stamp" Type="DateTime" Nullable="false" Precision="6" />
+    <Property Name="PSR_id" Type="Int32" Nullable="false" />
+    <Property Name="current_lat" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="current_lon" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="imei" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

@@ -13,8 +13,9 @@
           <Property Name="Date" Type="datetime" Nullable="false" />
           <Property Name="Date_time_stamp" Type="datetime2" Precision="6" Nullable="false" />
           <Property Name="PSR_id" Type="int" Nullable="false" />
-          <Property Name="current_lat" Type="varchar" MaxLength="100" Nullable="false" />
-          <Property Name="current_lon" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="current_lat" Type="varchar" MaxLength="100" />
+          <Property Name="current_lon" Type="varchar" MaxLength="100" />
+          <Property Name="imei" Type="varchar" MaxLength="100" />
         </EntityType>
         <Function Name="ApiGetOutlet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Psrid" Type="int" Mode="In" />
@@ -48,7 +49,6 @@
             <Parameter Name="UserName" Mode="In" Type="String" />
             <Parameter Name="Password" Mode="In" Type="String" />
           </FunctionImport>
-          <EntitySet Name="tblm_UserLogin" EntityType="ODMSModelApi.tblm_UserLogin" />
           <FunctionImport Name="ApiGetSubRoute" ReturnType="Collection(ODMSModelApi.ApiGetSubRoute_Result)">
             <Parameter Name="psrid" Mode="In" Type="Int32" />
             <Parameter Name="CurrentDate" Mode="In" Type="DateTime" />
@@ -63,8 +63,9 @@
           <Parameter Name="dbid" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="ApiGetTradePromotionDefinition" ReturnType="Collection(ODMSModelApi.ApiGetTradePromotionDefinition_Result)">
-            <Parameter Name="dbid" Mode="In" Type="Int32" />
+          <Parameter Name="dbid" Mode="In" Type="Int32" />
           </FunctionImport>
+          <EntitySet Name="tblm_UserLogin" EntityType="ODMSModelApi.tblm_UserLogin" />
         </EntityContainer>
         <ComplexType Name="ApiUserLogin_Result">
           <Property Type="Int32" Name="PSRid" Nullable="false" />
@@ -74,17 +75,6 @@
           <Property Type="String" Name="MobileNo" Nullable="true" MaxLength="255" />
           <Property Type="String" Name="DBName" Nullable="false" MaxLength="50" />
         </ComplexType>
-        <EntityType Name="tblm_UserLogin">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="Date_time_stamp" Type="DateTime" Nullable="false" Precision="6" />
-          <Property Name="PSR_id" Type="Int32" Nullable="false" />
-          <Property Name="current_lat" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="current_lon" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-        </EntityType>
         <ComplexType Name="ApiGetSubRoute_Result">
           <Property Type="Int32" Name="db_id" Nullable="false" />
           <Property Type="Int32" Name="db_emp_id" Nullable="false" />
@@ -151,6 +141,18 @@
           <Property Type="Int32" Name="condition_bundle_qty_CS" Nullable="false" />
           <Property Type="Int32" Name="condition_sku_group" Nullable="true" />
         </ComplexType>
+        <EntityType Name="tblm_UserLogin">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Date_time_stamp" Type="DateTime" Nullable="false" Precision="6" />
+          <Property Name="PSR_id" Type="Int32" Nullable="false" />
+          <Property Name="current_lat" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="current_lon" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="imei" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -169,18 +171,6 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <EntitySetMapping Name="tblm_UserLogin">
-            <EntityTypeMapping TypeName="ODMSModelApi.tblm_UserLogin">
-              <MappingFragment StoreEntitySet="tblm_UserLogin">
-                <ScalarProperty Name="current_lon" ColumnName="current_lon" />
-                <ScalarProperty Name="current_lat" ColumnName="current_lat" />
-                <ScalarProperty Name="PSR_id" ColumnName="PSR_id" />
-                <ScalarProperty Name="Date_time_stamp" ColumnName="Date_time_stamp" />
-                <ScalarProperty Name="Date" ColumnName="Date" />
-                <ScalarProperty Name="id" ColumnName="id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <FunctionImportMapping FunctionImportName="ApiGetSubRoute" FunctionName="ODMSModelApi.Store.ApiGetSubRoute">
             <ResultMapping>
               <ComplexTypeMapping TypeName="ODMSModelApi.ApiGetSubRoute_Result">
@@ -267,6 +257,19 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <EntitySetMapping Name="tblm_UserLogin">
+            <EntityTypeMapping TypeName="ODMSModelApi.tblm_UserLogin">
+              <MappingFragment StoreEntitySet="tblm_UserLogin">
+                <ScalarProperty Name="imei" ColumnName="imei" />
+                <ScalarProperty Name="current_lon" ColumnName="current_lon" />
+                <ScalarProperty Name="current_lat" ColumnName="current_lat" />
+                <ScalarProperty Name="PSR_id" ColumnName="PSR_id" />
+                <ScalarProperty Name="Date_time_stamp" ColumnName="Date_time_stamp" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

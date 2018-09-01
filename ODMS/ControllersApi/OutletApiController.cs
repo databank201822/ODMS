@@ -5,10 +5,13 @@ namespace ODMS.ControllersApi
 {
     public class OutletApiController : ApiController
     {
+
         private readonly ODMSEntitiesApi _dbapi = new ODMSEntitiesApi();
-        [HttpPost]
+
+        [HttpGet]
         public IHttpActionResult GetOutlet(int psrid)
         {
+         
             var outletList = _dbapi.ApiGetOutlet(psrid);
 
             return Ok(outletList);

@@ -18,12 +18,11 @@ namespace ODMS
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional}
             );
+
             config.Routes.MapHttpRoute(
                 name: "LoginApi",
-                routeTemplate: "api/{controller}/{action}/{user}/{pass}",
-                defaults: new { id = RouteParameter.Optional }
+                routeTemplate: "api/{controller}/{action}/{user}/{pass}"
             );
-           
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
         }
     }

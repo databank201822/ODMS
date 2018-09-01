@@ -13,18 +13,6 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <EntitySetMapping Name="tblm_UserLogin">
-      <EntityTypeMapping TypeName="ODMSModelApi.tblm_UserLogin">
-        <MappingFragment StoreEntitySet="tblm_UserLogin">
-          <ScalarProperty Name="current_lon" ColumnName="current_lon" />
-          <ScalarProperty Name="current_lat" ColumnName="current_lat" />
-          <ScalarProperty Name="PSR_id" ColumnName="PSR_id" />
-          <ScalarProperty Name="Date_time_stamp" ColumnName="Date_time_stamp" />
-          <ScalarProperty Name="Date" ColumnName="Date" />
-          <ScalarProperty Name="id" ColumnName="id" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <FunctionImportMapping FunctionImportName="ApiGetSubRoute" FunctionName="ODMSModelApi.Store.ApiGetSubRoute">
       <ResultMapping>
         <ComplexTypeMapping TypeName="ODMSModelApi.ApiGetSubRoute_Result">
@@ -111,5 +99,18 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <EntitySetMapping Name="tblm_UserLogin">
+      <EntityTypeMapping TypeName="ODMSModelApi.tblm_UserLogin">
+        <MappingFragment StoreEntitySet="tblm_UserLogin">
+          <ScalarProperty Name="imei" ColumnName="imei" />
+          <ScalarProperty Name="current_lon" ColumnName="current_lon" />
+          <ScalarProperty Name="current_lat" ColumnName="current_lat" />
+          <ScalarProperty Name="PSR_id" ColumnName="PSR_id" />
+          <ScalarProperty Name="Date_time_stamp" ColumnName="Date_time_stamp" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

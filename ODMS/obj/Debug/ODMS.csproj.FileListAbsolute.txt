@@ -161,3 +161,6 @@ D:\Dropbox\ODMS\ODMS\obj\Debug\ODMS.csprojResolveAssemblyReference.cache
 D:\Dropbox\ODMS\ODMS\bin\Reports\Realtime\RPT_Realtime_OutletWiseOrder.rdlc
 D:\Dropbox\ODMS\ODMS\bin\Reports\Realtime\RPT_Realtime_SKUWiseOrder.rdlc
 D:\Dropbox\ODMS\ODMS\bin\Reports\RPT_DayEndReport.rdlc
+D:\Dropbox\ODMS\ODMS\bin\System.Web.Cors.dll
+D:\Dropbox\ODMS\ODMS\bin\System.Web.Http.Cors.dll
+D:\Dropbox\ODMS\ODMS\bin\System.Web.Http.Cors.xml

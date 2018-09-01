@@ -8,8 +8,9 @@
     <Property Name="Date" Type="datetime" Nullable="false" />
     <Property Name="Date_time_stamp" Type="datetime2" Precision="6" Nullable="false" />
     <Property Name="PSR_id" Type="int" Nullable="false" />
-    <Property Name="current_lat" Type="varchar" MaxLength="100" Nullable="false" />
-    <Property Name="current_lon" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="current_lat" Type="varchar" MaxLength="100" />
+    <Property Name="current_lon" Type="varchar" MaxLength="100" />
+    <Property Name="imei" Type="varchar" MaxLength="100" />
   </EntityType>
   <Function Name="ApiGetOutlet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="Psrid" Type="int" Mode="In" />

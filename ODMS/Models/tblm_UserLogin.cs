@@ -20,5 +20,6 @@ namespace ODMS.Models
         public int PSR_id { get; set; }
         public string current_lat { get; set; }
         public string current_lon { get; set; }
+        public string imei { get; set; }
     }
 }
